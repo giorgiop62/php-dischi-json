@@ -11,6 +11,7 @@
   <title>PHP Dischi JSON</title>
 </head>
 <body>
+  <div id="app">
   <header>
     <img src="https://www.geekslab.it/wp-content/uploads/2019/03/logo-spotify.png" alt="logo">
   </header>
@@ -18,7 +19,7 @@
   <div class="container">
     <div class="row">
       <div class="col">
-        <div class="card" style="width: 18rem; background-color:#12202f;">
+        <div v-for="(disco,index) in dischi" class="card" style="width: 18rem; background-color:#12202f;">
           <img src="" class="card-img-top" alt="">
             <div class="card-body">
               <h5 class="card-title"></h5>
@@ -37,6 +38,6 @@
 
 
 
-  
+  </div>
 </body>
 </html>
