@@ -15,4 +15,7 @@ createApp({
       })
     }
   },
+  mounted(){
+    this.getDischi();
+  }
 }).mount('#app')
